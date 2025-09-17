@@ -51,7 +51,7 @@ namespace Pr_6
                 Console.WriteLine($"Ошибка: {ex.Message}");
                 Console.ForegroundColor = ConsoleColor.Green;
             }
-
+           Console.Readkey();
         }
     }
 }
